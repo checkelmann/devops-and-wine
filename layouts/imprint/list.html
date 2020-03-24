@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-lg-5">
+        <h2 class="mb-4">{{ .Title | markdownify }}</h2>
+        <div class="content">{{ .Content }}</div>
+      </div>
+      <div class="col-lg-6 text-md-right">
+        <img class="img-fluid" src="{{ .Params.Image | relURL }}" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

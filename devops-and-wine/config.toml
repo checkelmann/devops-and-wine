@@ -1,0 +1,123 @@
+############################ Default configuration #########################
+baseURL = "https://devops-and-wine.com/"
+languageCode = "en-us"
+# site title 
+title = "DevOps and Wine"
+# theme
+theme = "northendlab-hugo"
+# post pagination
+paginate = "5"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+
+[outputs]
+home = ["HTML", "AMP", "RSS", "JSON"]
+
+########################## Plugings ######################################
+
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+
+
+########################### Navigation ###################################
+
+# main menu
+[[menu.main]]
+URL = "imprint"
+name = "Imprint"
+weight = 1
+
+#[[menu.main]]
+#URL = "tools"
+#name = "tools"
+#weight = 2
+
+# footer menu
+#[[menu.footer]]
+#URL = "contact"
+#name = "Contact"
+#weight = 1
+
+#[[menu.footer]]
+#URL = "tools"
+#name = "tools"
+#weight = 2
+
+
+######################### Default Parameters ###########################
+[params]
+# home
+home = "DevOps and Wine"
+# logo
+logo = "images/stock/daw-logo.png"
+# meta data
+author = "Christian Heckelmann"
+description = "DevOps and Wine - The Virtual DevOps Meetup!"
+# google tag manager
+google_tag_manager = "" # your id
+# google analitycs ID
+google_analitycs_id = "" # your id
+# contact form action
+contact_form_action = "#" # contact form works with : https://formspree.io
+# copyright
+copyright = "&copy; 2020 DevOps and Wine"
+
+# preloader
+[params.preloader]
+enable = true
+preloader = "" # use png, jpg, svg or gif format
+
+# search
+[params.search]
+enable = false
+
+
+####################### banner #######################################
+[params.banner]
+bgImage = "images/stock/desk.jpeg"
+title = "DevOps and Wine Online Meetup!"
+#image = "images/banner/illustration.svg"
+
+
+######################## call to action ###############################
+[params.cta]
+enable = true
+image = "images/stock/calendar.png"
+title = "Join us!"
+description = "Feel free to join our next Meeting and at it to your calendar!"
+[params.cta.button]
+enable = true
+label = "Add to Calendar"
+link = "https://calendar.google.com/calendar?cid=ZHluYXRyYWNlLmNvbV9tdXJtMWxrMmhpdXUzNmFxNWFoM2hybWFiY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+
+
+############################## Social Site ##########################
+[[params.social]]
+icon = "ti-google" # themify icon pack https://themify.me/themify-icons
+link = "https://groups.google.com/forum/#!topic/devops-and-wine/AkOE9U0EqUI"
+[[params.social]]
+icon = "ti-video-camera" # themify icon pack https://themify.me/themify-icons
+link = "https://dynatrace.zoom.us/j/7506042864 "
+[[params.social]]
+icon = "ti-github" # themify icon pack https://themify.me/themify-icons
+link = "#"
+[[params.social]]
+icon = "ti-agenda" # themify icon pack https://themify.me/themify-icons
+link = "https://docs.google.com/document/d/1FnKA0BMlerFDSDNj-0uqNgbPUAnCYlb57vl1Tp0ofQo/edit?ts=5e6fafc0"
