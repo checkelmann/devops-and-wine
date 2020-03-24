@@ -1,5 +1,5 @@
 [build]
-  publish = "exampleSite/public"
+  publish = "devops-and-wine/public"
   command = "cd devops-and-wine && hugo --gc --themesDir ../.."
   
 [build.environment]
