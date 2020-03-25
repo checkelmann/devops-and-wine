@@ -4,7 +4,7 @@ languageCode = "en-us"
 # site title 
 title = "DevOps and Wine"
 # theme
-theme = "northendlab-hugo"
+theme = "devops-and-wine"
 # post pagination
 paginate = "5"
 # post excerpt
