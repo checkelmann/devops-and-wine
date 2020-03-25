@@ -20,7 +20,7 @@
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-lg-5">
-        <img class="img-fluid" src="{{ .Params.Image | relURL }}" alt="">
+        <img class="img-fluid row shadow bg-white p-5" src="{{ .Params.Image | relURL }}" alt="" >
       </div>
       <div class="col-lg-6 text-md-left">
         <h2 class="mb-4">{{ .Title | markdownify }}</h2>
@@ -29,7 +29,6 @@
     </div>
   </div>
 </section>
-
 
 <!-- blog -->
 <section class="section">
