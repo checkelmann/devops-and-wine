@@ -8,6 +8,8 @@ This is an online meetup where we discuss DevOps topics over wine. Why wine? Fir
 
 _**Logistics**_
 
+<i class="ti-agenda"></i>
+
 [Google Calendar Web Link](https://calendar.google.com/calendar?cid=ZHluYXRyYWNlLmNvbV9tdXJtMWxrMmhpdXUzNmFxNWFoM2hybWFiY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
 [iCal Link](https://calendar.google.com/calendar/ical/dynatrace.com_murm1lk2hiuu36aq5ah3hrmabc%40group.calendar.google.com/public/basic.ics)
