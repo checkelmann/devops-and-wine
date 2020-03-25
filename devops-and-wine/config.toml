@@ -119,7 +119,7 @@ icon = "ti-video-camera" # themify icon pack https://themify.me/themify-icons
 link = "https://dynatrace.zoom.us/j/7506042864 "
 [[params.social]]
 icon = "ti-github" # themify icon pack https://themify.me/themify-icons
-link = "#"
+link = "https://github.com/checkelmann/devops-and-wine"
 [[params.social]]
 icon = "ti-agenda" # themify icon pack https://themify.me/themify-icons
 link = "https://docs.google.com/document/d/1FnKA0BMlerFDSDNj-0uqNgbPUAnCYlb57vl1Tp0ofQo/edit?ts=5e6fafc0"
