@@ -86,7 +86,7 @@ preloader = "" # use png, jpg, svg or gif format
 
 # search
 [params.search]
-enable = false
+enable = true
 
 [params.cookieconsent]
 enable = true
