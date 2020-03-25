@@ -12,6 +12,6 @@ _**Logistics**_
 
 {{< ti calendar >}} [iCal Link](https://calendar.google.com/calendar/ical/dynatrace.com_murm1lk2hiuu36aq5ah3hrmabc%40group.calendar.google.com/public/basic.ics)
 
-{{< ti video-camera >}} [*Zoom Link*](https://dynatrace.zoom.us/j/7506042864)
+{{< ti video-camera >}} [Zoom Meeting](https://dynatrace.zoom.us/j/7506042864)
 
 {{< ti google >}} [Google Group](https://groups.google.com/d/forum/devops-and-wine)
