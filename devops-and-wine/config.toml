@@ -88,6 +88,8 @@ preloader = "" # use png, jpg, svg or gif format
 [params.search]
 enable = false
 
+[params.cookieconsent]
+enable = true
 
 ####################### banner #######################################
 [params.banner]
